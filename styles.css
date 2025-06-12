@@ -360,3 +360,96 @@ body::before {
   color: #c13584;
 }
 
+@media (max-width: 768px) {
+   
+
+  .nav {
+    position: relative;
+    z-index: 1;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 0 8px;
+    margin-top: 2px;
+    font-size: 10px;
+  }
+
+  .nav-list a {
+    padding: 4px 8px;
+  }
+
+   .call-to-action {
+    font-size: 14px;
+    padding: 6px 10px;
+    background-color: transparent;
+    color: #4a2e10;
+    border-radius: 4px;
+  }
+
+  .call-to-action:hover {
+    background-color: #f0f0f0;
+    transform: none;
+  }
+
+  .logo-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    top: 0;
+  }
+
+  .logo-img {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  .hero {
+    padding: 20px;
+    height: auto;
+    min-height: 70vh;
+    background-image: url("images/golden.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+
+  .service-item {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .service-item img {
+    height: 220px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .horario-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contato-link {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .lightbox img {
+    max-width: 95%;
+    max-height: 70%;
+  }
+}
+
+
