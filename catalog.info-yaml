@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sunshine-dog-day
-  description: "Frontend da Esmalteria Sunshine"
+  description: "Frontend da creche pet Sunshine"
   annotations:
     github.com/project-slug: jehtds/sunshine-dog-day
 spec:
