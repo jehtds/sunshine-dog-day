@@ -7,5 +7,5 @@ metadata:
     github.com/project-slug: jehtds/sunshine-dog-day
 spec:
   type: service
-  owner: user:jessica
+  owner: user:default/jessica
   lifecycle: experimental
